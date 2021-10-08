@@ -141,7 +141,7 @@ The song examples we list here are the original performance; the output of KaraT
 
 ### Pitch Predictor Examples
 
-The song examples we list here are the original performance, the output of the baseline tuning method and the output of KaraTuner.
+The song examples we list here are the original performance, the output of the baseline tuning method (post tuning process in [A Neural Parametric Singing Synthesizer](https://arxiv.org/abs/1704.03809), NPSS) and the output of KaraTuner.
 
 ### 1.
 
@@ -149,7 +149,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/aiqingzhuanyi_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/aiqingzhuanyi_npss.mp3" controls></audio> | <audio src="audio/aiqingzhuanyi_ugc.mp3" controls></audio> |
 
@@ -159,7 +159,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_0ea518d5a8395b86537e47ef80f9fafc598191ad_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_0ea518d5a8395b86537e47ef80f9fafc598191ad_npss.mp3" controls></audio> | <audio src="audio/87_0ea518d5a8395b86537e47ef80f9fafc598191ad_ugc.mp3" controls></audio> |
 
@@ -169,7 +169,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_01a518d5fcf161b6537e47ef83f9fafc59812aaf_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_01a518d5fcf161b6537e47ef83f9fafc59812aaf_npss.mp3" controls></audio> | <audio src="audio/87_01a518d5fcf161b6537e47ef83f9fafc59812aaf_ugc.mp3" controls></audio> |
 
@@ -179,7 +179,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_1ca718d5ae2b05bc537e47ef83f9fafc5981feaf_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_1ca718d5ae2b05bc537e47ef83f9fafc5981feaf_npss.mp3" controls></audio> | <audio src="audio/87_1ca718d5ae2b05bc537e47ef83f9fafc5981feaf_ugc.mp3" controls></audio> |
 
@@ -189,7 +189,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_7ca518d56f93f6b8537e47ef80f9fafc59811fae_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_7ca518d56f93f6b8537e47ef80f9fafc59811fae_npss.mp3" controls></audio> | <audio src="audio/87_7ca518d56f93f6b8537e47ef80f9fafc59811fae_ugc.mp3" controls></audio> |
 
@@ -199,7 +199,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_41a518d59cc664f8537e47ef83f9fafc598140ac_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_41a518d59cc664f8537e47ef83f9fafc598140ac_npss.mp3" controls></audio> | <audio src="audio/87_41a518d59cc664f8537e47ef83f9fafc598140ac_ugc.mp3" controls></audio> |
 
@@ -209,7 +209,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_46b118d5ef95b69c537e47ef80f9fafc5981d2ae_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_46b118d5ef95b69c537e47ef80f9fafc5981d2ae_npss.mp3" controls></audio> | <audio src="audio/87_46b118d5ef95b69c537e47ef80f9fafc5981d2ae_ugc.mp3" controls></audio> |
 
@@ -219,7 +219,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_78a718d55a56beae537e47ef83f9fafc598151af_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_78a718d55a56beae537e47ef83f9fafc598151af_npss.mp3" controls></audio> | <audio src="audio/87_78a718d55a56beae537e47ef83f9fafc598151af_ugc.mp3" controls></audio> |
 
@@ -229,7 +229,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_d3a418d57bf39f9e537e47ef80f9fafc59811caf_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_d3a418d57bf39f9e537e47ef80f9fafc59811caf_npss.mp3" controls></audio> | <audio src="audio/87_d3a418d57bf39f9e537e47ef80f9fafc59811caf_ugc.mp3" controls></audio> |
 
@@ -239,7 +239,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_dea518d549e0f695537e47ef80f9fafc59810eae_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_dea518d549e0f695537e47ef80f9fafc59810eae_npss.mp3" controls></audio> | <audio src="audio/87_dea518d549e0f695537e47ef80f9fafc59810eae_ugc.mp3" controls></audio> |
 
@@ -249,7 +249,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_0dbd18d5623291a9537e47ef80f9fafc59815bad_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_0dbd18d5623291a9537e47ef80f9fafc59815bad_npss.mp3" controls></audio> | <audio src="audio/87_0dbd18d5623291a9537e47ef80f9fafc59815bad_ugc.mp3" controls></audio> |
 
@@ -259,7 +259,7 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/qingfeideyi_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/qingfeideyi_npss.mp3" controls></audio> | <audio src="audio/qingfeideyi_ugc.mp3" controls></audio> |
 
@@ -269,6 +269,6 @@ The song examples we list here are the original performance, the output of the b
 | --- |
 | <audio src="audio/87_3ea218d54bf93fba537e47ef80f9fafc5981e9ac_vocal.mp3" controls></audio> |
 
-| Baseline | KaraTuner(proposed) |
+| NPSS | KaraTuner(proposed) |
 | --- | --- |
 | <audio src="audio/87_3ea218d54bf93fba537e47ef80f9fafc5981e9ac_npss.mp3" controls></audio> | <audio src="audio/87_3ea218d54bf93fba537e47ef80f9fafc5981e9ac_ugc.mp3" controls></audio> |
