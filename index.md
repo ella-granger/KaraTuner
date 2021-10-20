@@ -183,3 +183,22 @@ The song examples we list here are the original performance, the output of the b
   </tbody>
 </table>
 <hr>
+
+### Code
+
+https://github.com/auzxb/KaraTuner (in preparation)
+
+### Cite
+
+@misc{zhuang2021karatuner,
+      title={KaraTuner: Towards end to end natural pitch correction for singing voice in karaoke}, 
+      author={Xiaobin Zhuang and Huiran Yu and Weifeng Zhao and Tao Jiang and Peng Hu and Simon Lui and Wenjiang Zhou},
+      year={2021},
+      eprint={2110.09121},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
+
+
+
+
