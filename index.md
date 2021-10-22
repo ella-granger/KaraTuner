@@ -8,18 +8,132 @@ An automatic pitch correction system typically includes several stages, such as 
 
 ![Architecture of KaraTuner](karatuner.png)
 
-### Vocoder Performance
+### Pitch Shift Examples
 
-The song examples we list here are the original performance; the output of KaraTuner; the output of WORLD vocoder; the output of phase vocoder.
+The song examples we list here are the original recordings, the outputs of KaraTuner, and the outputs of WORLD vocoder when shifting the pitch with three constant ratios: 0.84, 1.00, 1.19.
 
-### 1.
+#### sample 1
+
+<audio src="audio/sample0.wav" controls></audio>
+
+<table style='text-align: center;'>
+  <tbody>
+    <tr>
+      <td>ratio</td>
+      <td>0.84</td>
+      <td>1.0</td>
+      <td>1.19</td>
+    </tr>
+    <tr>
+      <td>WORLD Vocoder</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample0_n3_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample0_0_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample0_p3_world.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+      <td>KaraTuner(proposed)</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample0_n3_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample0_0_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample0_p3_karatuner.wav" type="audio/wav" /></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+#### sample 2
+
+<audio src="audio/sample1.wav" controls></audio>
+
+<table style='text-align: center;'>
+  <tbody>
+    <tr>
+      <td>ratio</td>
+      <td>0.84</td>
+      <td>1.0</td>
+      <td>1.19</td>
+    </tr>
+    <tr>
+      <td>WORLD Vocoder</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample1_n3_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample1_0_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample1_p3_world.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+      <td>KaraTuner(proposed)</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample1_n3_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample1_0_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample1_p3_karatuner.wav" type="audio/wav" /></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+#### sample 3
+
+<audio src="audio/sample2.wav" controls></audio>
+
+<table style='text-align: center;'>
+  <tbody>
+    <tr>
+      <td>ratio</td>
+      <td>0.84</td>
+      <td>1.0</td>
+      <td>1.19</td>
+    </tr>
+    <tr>
+      <td>WORLD Vocoder</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample2_n3_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample2_0_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample2_p3_world.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+      <td>KaraTuner(proposed)</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample2_n3_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample2_0_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample2_p3_karatuner.wav" type="audio/wav" /></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+#### sample 4
+
+<audio src="audio/sample3.wav" controls></audio>
+
+<table style='text-align: center;'>
+  <tbody>
+    <tr>
+      <td>ratio</td>
+      <td>0.84</td>
+      <td>1.0</td>
+      <td>1.19</td>
+    </tr>
+    <tr>
+      <td>WORLD Vocoder</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample3_n3_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample3_0_world.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample3_p3_world.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+      <td>KaraTuner(proposed)</td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample3_n3_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample3_0_karatuner.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 180px;height: 50px"><source src="audio/sample3_p3_karatuner.wav" type="audio/wav" /></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+### Pitch Correction Examples
+
+The song examples we list here are the original recordings, the outputs of KaraTuner, the outputs of WORLD vocoder; the output of phase vocoder.
 
 <table style='text-align: center;'>
   <tbody>
     <tr>
       <td>Original Recording</td>
       <td>KaraTuner(proposed)</td>
-      <td>World Vocoder</td>
+      <td>WORLD Vocoder</td>
       <td>Phase Vocoder</td>
     </tr>
     <tr>
@@ -106,7 +220,7 @@ The song examples we list here are the original performance; the output of KaraT
 
 ### Pitch Predictor Examples
 
-The song examples we list here are the original performance, the output of the baseline tuning method (post tuning process in [A Neural Parametric Singing Synthesizer](https://arxiv.org/abs/1704.03809), NPSS) and the output of KaraTuner.
+The song examples we list here are the original recordings, the outputs of the baseline tuning method (post tuning process in [A Neural Parametric Singing Synthesizer](https://arxiv.org/abs/1704.03809), NPSS) and the outputs of KaraTuner.
 
 <table style='text-align: center;'>
   <tbody>
@@ -183,22 +297,3 @@ The song examples we list here are the original performance, the output of the b
   </tbody>
 </table>
 <hr>
-
-### Code
-
-https://github.com/auzxb/KaraTuner (in preparation)
-
-### Cite
-
-@misc{zhuang2021karatuner,
-      title={KaraTuner: Towards end to end natural pitch correction for singing voice in karaoke}, 
-      author={Xiaobin Zhuang and Huiran Yu and Weifeng Zhao and Tao Jiang and Peng Hu and Simon Lui and Wenjiang Zhou},
-      year={2021},
-      eprint={2110.09121},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD}
-}
-
-
-
-
